@@ -38,7 +38,7 @@ class GenerateLabelsRequest
         $this->references = $references;
         $this->waybills = $waybills;
         $this->pageFormat = FileType::PDF();
-        $this->pageSize = PageSize::A4();
+        $this->pageSize = PageSize::LBL_PRINTER();
         $this->printingPolicy = LabelPrintingPolicy::IGNORE_ERRORS();
     }
 
